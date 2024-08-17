@@ -6,25 +6,25 @@ This repository contains simulations for different queuing systems using Python.
 
 ### 1. **Customers_with_priority**
    - **Files:**
-     - `Customer_with_priority.pdf`: A detailed report explaining the impact of customer priority rules on queuing system performance, including scenarios with and without preemption【8†source】.
+     - `Customer_with_priority.pdf`: A detailed report explaining the impact of customer priority rules on queuing system performance, including scenarios with and without preemption.
      - `Preemption_policy.ipynb`: A Jupyter notebook implementing the simulation where high-priority customers preempt low-priority customers.
      - `Waiting_policy.ipynb`: A Jupyter notebook implementing the simulation where priority is considered without preemption.
 
 ### 2. **Multiple_Servers**
    - **Files:**
-     - `Multiple_Servers.pdf`: A report exploring the performance of multiple server systems, including tandem queues and shared queues, analyzing metrics like mean delay and system performance【10†source】.
+     - `Multiple_Servers.pdf`: A report exploring the performance of multiple server systems, including tandem queues and shared queues, analyzing metrics like mean delay and system performance.
      - `Shared_queue_by_two_servers.ipynb`: A Jupyter notebook simulating shared queues handled by two servers.
      - `Tandem_queues.ipynb`: A Jupyter notebook simulating a series of tandem queues.
 
 ### 3. **Simple_Queue**
    - **Files:**
-     - `Simple_Queue.pdf`: A report comparing the performance of simple queue systems under FIFO (First-In, First-Out) and LIFO (Last-In, First-Out) disciplines【9†source】.
+     - `Simple_Queue.pdf`: A report comparing the performance of simple queue systems under FIFO (First-In, First-Out) and LIFO (Last-In, First-Out) disciplines.
      - `First_in_First_out.ipynb`: A Jupyter notebook implementing a simple M/M/1 queue under the FIFO discipline.
      - `Last_in_First_out.ipynb`: A Jupyter notebook implementing a simple M/M/1 queue under the LIFO discipline.
 
 ### 4. **Variance_Reduction**
    - **Files:**
-     - `Variance_reduction.pdf`: A report on techniques for variance reduction, focusing on antithetic and control variate methods in queuing simulations【11†source】.
+     - `Variance_reduction.pdf`: A report on techniques for variance reduction, focusing on antithetic and control variate methods in queuing simulations.
      - `Antithetic_variate.ipynb`: A Jupyter notebook demonstrating the antithetic variate technique for variance reduction.
      - `Control_variate.ipynb`: A Jupyter notebook demonstrating the control variate technique for variance reduction.
 

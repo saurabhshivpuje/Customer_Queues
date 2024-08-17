@@ -40,7 +40,7 @@ Each of the directories contains a PDF report that explains the simulation metho
 2. Navigate to the desired directory and run the Jupyter notebooks to explore the simulations:
    ```bash
    cd <directory_name>
-   jupyter notebook
+   jupyter <notebook_name>
    ```
 
 ## Summary

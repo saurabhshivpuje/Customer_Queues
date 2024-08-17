@@ -4,29 +4,29 @@ This repository contains simulations for different queuing systems using Python.
 
 ## Directory Structure
 
-### 1. **Customers_with_priority**
+### 1. **Simple_Queue**
+   - **Files:**
+     - `Simple_Queue.pdf`: A report comparing the performance of simple queue systems under FIFO (First-In, First-Out) and LIFO (Last-In, First-Out) disciplines.
+     - `First_in_First_out.py`: A Python file implementing a simple M/M/1 queue under the FIFO discipline.
+     - `Last_in_First_out.ipynb`: A Python file implementing a simple M/M/1 queue under the LIFO discipline.
+
+### 2. **Multiple_Servers**
+   - **Files:**
+     - `Multiple_Servers.pdf`: A report exploring the performance of multiple server systems, including tandem queues and shared queues, analyzing metrics like mean delay and system performance.
+     - `Shared_queue_by_two_servers.ipynb`: A Python file simulating shared queues handled by two servers.
+     - `Tandem_queues.ipynb`: A Python file simulating a series of tandem queues.
+
+### 3. **Customers_with_priority**
    - **Files:**
      - `Customer_with_priority.pdf`: A detailed report explaining the impact of customer priority rules on queuing system performance, including scenarios with and without preemption.
      - `Preemption_policy.ipynb`: A Jupyter notebook implementing the simulation where high-priority customers preempt low-priority customers.
      - `Waiting_policy.ipynb`: A Jupyter notebook implementing the simulation where priority is considered without preemption.
 
-### 2. **Multiple_Servers**
-   - **Files:**
-     - `Multiple_Servers.pdf`: A report exploring the performance of multiple server systems, including tandem queues and shared queues, analyzing metrics like mean delay and system performance.
-     - `Shared_queue_by_two_servers.ipynb`: A Jupyter notebook simulating shared queues handled by two servers.
-     - `Tandem_queues.ipynb`: A Jupyter notebook simulating a series of tandem queues.
-
-### 3. **Simple_Queue**
-   - **Files:**
-     - `Simple_Queue.pdf`: A report comparing the performance of simple queue systems under FIFO (First-In, First-Out) and LIFO (Last-In, First-Out) disciplines.
-     - `First_in_First_out.ipynb`: A Jupyter notebook implementing a simple M/M/1 queue under the FIFO discipline.
-     - `Last_in_First_out.ipynb`: A Jupyter notebook implementing a simple M/M/1 queue under the LIFO discipline.
-
 ### 4. **Variance_Reduction**
    - **Files:**
      - `Variance_reduction.pdf`: A report on techniques for variance reduction, focusing on antithetic and control variate methods in queuing simulations.
-     - `Antithetic_variate.ipynb`: A Jupyter notebook demonstrating the antithetic variate technique for variance reduction.
-     - `Control_variate.ipynb`: A Jupyter notebook demonstrating the control variate technique for variance reduction.
+     - `Antithetic_variate.ipynb`: A Python file demonstrating the antithetic variate technique for variance reduction.
+     - `Control_variate.ipynb`: A Python file demonstrating the control variate technique for variance reduction.
 
 ## Reports
 Each of the directories contains a PDF report that explains the simulation methods, experimental setup, and results for the respective queuing systems. These reports provide insights into the different scenarios explored, the metrics analyzed, and the conclusions drawn from the simulations.
@@ -40,7 +40,10 @@ Each of the directories contains a PDF report that explains the simulation metho
 2. Navigate to the desired directory and run the Jupyter notebooks to explore the simulations:
    ```bash
    cd <directory_name>
+   python3 <python_file_name>
+   or 
    jupyter <notebook_name>
+   
    ```
 
 ## Summary
